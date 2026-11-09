@@ -8,7 +8,8 @@
 LICENSE text eol=lf
 NOTICE text eol=lf
 # Audited CAD and manufacturing evidence must retain exact bytes on checkout.
-hardware/rev-a/** -text
+hardware/rev-a/** -text whitespace=cr-at-eol
+*.ses whitespace=-blank-at-eol,cr-at-eol
 tests/fixtures/missing-mask/*.gts -text
 tests/fixtures/missing-mask/*.gbs -text
 *.zip binary
