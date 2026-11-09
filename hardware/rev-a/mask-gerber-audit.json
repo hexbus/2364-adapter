@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "through_hole_openings_each_side": 52,
+  "top_smd_openings": 4,
+  "mask_flashes": {
+    "-F_Mask.gts": 56,
+    "-B_Mask.gbs": 52
+  }
+}

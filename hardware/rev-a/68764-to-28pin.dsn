@@ -1,0 +1,261 @@
+(pcb "E:\git\cc40\hardware\68764-adapter\rev-a\68764-to-28pin.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.6")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  71000 -85000  48000 -85000  48000 -48000  71000 -48000
+            71000 -85000)
+    )
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 250)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Adapter:SolderJumper_Open
+      (place JP1 57000 -50000 front 0 (PN "CLOSE FOR 2764 VPP"))
+    )
+    (component Adapter:C_0805
+      (place C1 61000 -50000 front 0 (PN 100nF))
+    )
+    (component Adapter:DIP28_SocketStrips_15.24mm
+      (place U1 50000 -50000 front 0 (PN "AT28C64B / 27C64 SOCKET"))
+    )
+    (component Adapter:DIP24_Male_15.24mm
+      (place J1 53810 -52540 back 180 (PN "68764 HOST PLUG - BOTTOM"))
+    )
+  )
+  (library
+    (image Adapter:SolderJumper_Open
+      (outline (polygon signal 0  1795 -995  -1795 -995  -1795 995  1795 995))
+      (pin Rect[T]Pad_1000.000000x1500.000000_um 1 -650 0)
+      (pin Rect[T]Pad_1000.000000x1500.000000_um 2 650 0)
+    )
+    (image Adapter:C_0805
+      (outline (polygon signal 0  1795 -995  -1795 -995  -1795 995  1795 995))
+      (pin Rect[T]Pad_1100.000000x1500.000000_um 1 -950 0)
+      (pin Rect[T]Pad_1100.000000x1500.000000_um 2 950 0)
+    )
+    (image Adapter:DIP28_SocketStrips_15.24mm
+      (outline (polygon signal 0  1495 -34515  -1495 -34515  -1495 1495  1495 1495))
+      (outline (polygon signal 0  16735 -34515  13745 -34515  13745 1495  16735 1495))
+      (outline (path signal 150  5800 -2200  6700 -2200))
+      (outline (path signal 150  6700 -2200  6700 -3200))
+      (outline (path signal 150  6700 -3200  8500 -3200))
+      (outline (path signal 150  8500 -2200  9400 -2200))
+      (outline (path signal 150  8500 -3200  8500 -2200))
+      (outline (path signal 100  -1250 1250  1250 1250))
+      (outline (path signal 100  -1250 -34270  -1250 1250))
+      (outline (path signal 100  1250 1250  1250 -34270))
+      (outline (path signal 100  1250 -34270  -1250 -34270))
+      (outline (path signal 100  13990 1250  16490 1250))
+      (outline (path signal 100  13990 -34270  13990 1250))
+      (outline (path signal 100  16490 1250  16490 -34270))
+      (outline (path signal 100  16490 -34270  13990 -34270))
+      (pin Rect[A]Pad_1600.000000x1600.000000_um 1 0 0)
+      (pin Round[A]Pad_1600.000000_um 2 0 -2540)
+      (pin Round[A]Pad_1600.000000_um 3 0 -5080)
+      (pin Round[A]Pad_1600.000000_um 4 0 -7620)
+      (pin Round[A]Pad_1600.000000_um 5 0 -10160)
+      (pin Round[A]Pad_1600.000000_um 6 0 -12700)
+      (pin Round[A]Pad_1600.000000_um 7 0 -15240)
+      (pin Round[A]Pad_1600.000000_um 8 0 -17780)
+      (pin Round[A]Pad_1600.000000_um 9 0 -20320)
+      (pin Round[A]Pad_1600.000000_um 10 0 -22860)
+      (pin Round[A]Pad_1600.000000_um 11 0 -25400)
+      (pin Round[A]Pad_1600.000000_um 12 0 -27940)
+      (pin Round[A]Pad_1600.000000_um 13 0 -30480)
+      (pin Round[A]Pad_1600.000000_um 14 0 -33020)
+      (pin Round[A]Pad_1600.000000_um 15 15240 -33020)
+      (pin Round[A]Pad_1600.000000_um 16 15240 -30480)
+      (pin Round[A]Pad_1600.000000_um 17 15240 -27940)
+      (pin Round[A]Pad_1600.000000_um 18 15240 -25400)
+      (pin Round[A]Pad_1600.000000_um 19 15240 -22860)
+      (pin Round[A]Pad_1600.000000_um 20 15240 -20320)
+      (pin Round[A]Pad_1600.000000_um 21 15240 -17780)
+      (pin Round[A]Pad_1600.000000_um 22 15240 -15240)
+      (pin Round[A]Pad_1600.000000_um 23 15240 -12700)
+      (pin Round[A]Pad_1600.000000_um 24 15240 -10160)
+      (pin Round[A]Pad_1600.000000_um 25 15240 -7620)
+      (pin Round[A]Pad_1600.000000_um 26 15240 -5080)
+      (pin Round[A]Pad_1600.000000_um 27 15240 -2540)
+      (pin Round[A]Pad_1600.000000_um 28 15240 0)
+    )
+    (image Adapter:DIP24_Male_15.24mm
+      (outline (polygon signal 0  1495 -1495  -1495 -1495  -1495 29435  1495 29435))
+      (outline (polygon signal 0  16735 -1495  13745 -1495  13745 29435  16735 29435))
+      (outline (path signal 150  5800 -800  6700 -800))
+      (outline (path signal 150  6700 200  8500 200))
+      (outline (path signal 150  6700 -800  6700 200))
+      (outline (path signal 150  8500 200  8500 -800))
+      (outline (path signal 150  8500 -800  9400 -800))
+      (outline (path signal 100  -1250 29190  1250 29190))
+      (outline (path signal 100  -1250 -1250  -1250 29190))
+      (outline (path signal 100  1250 29190  1250 -1250))
+      (outline (path signal 100  1250 -1250  -1250 -1250))
+      (outline (path signal 100  13990 29190  16490 29190))
+      (outline (path signal 100  13990 -1250  13990 29190))
+      (outline (path signal 100  16490 29190  16490 -1250))
+      (outline (path signal 100  16490 -1250  13990 -1250))
+      (pin Rect[A]Pad_1600.000000x1600.000000_um 1 0 0)
+      (pin Round[A]Pad_1600.000000_um 2 0 2540)
+      (pin Round[A]Pad_1600.000000_um 3 0 5080)
+      (pin Round[A]Pad_1600.000000_um 4 0 7620)
+      (pin Round[A]Pad_1600.000000_um 5 0 10160)
+      (pin Round[A]Pad_1600.000000_um 6 0 12700)
+      (pin Round[A]Pad_1600.000000_um 7 0 15240)
+      (pin Round[A]Pad_1600.000000_um 8 0 17780)
+      (pin Round[A]Pad_1600.000000_um 9 0 20320)
+      (pin Round[A]Pad_1600.000000_um 10 0 22860)
+      (pin Round[A]Pad_1600.000000_um 11 0 25400)
+      (pin Round[A]Pad_1600.000000_um 12 0 27940)
+      (pin Round[A]Pad_1600.000000_um 13 15240 27940)
+      (pin Round[A]Pad_1600.000000_um 14 15240 25400)
+      (pin Round[A]Pad_1600.000000_um 15 15240 22860)
+      (pin Round[A]Pad_1600.000000_um 16 15240 20320)
+      (pin Round[A]Pad_1600.000000_um 17 15240 17780)
+      (pin Round[A]Pad_1600.000000_um 18 15240 15240)
+      (pin Round[A]Pad_1600.000000_um 19 15240 12700)
+      (pin Round[A]Pad_1600.000000_um 20 15240 10160)
+      (pin Round[A]Pad_1600.000000_um 21 15240 7620)
+      (pin Round[A]Pad_1600.000000_um 22 15240 5080)
+      (pin Round[A]Pad_1600.000000_um 23 15240 2540)
+      (pin Round[A]Pad_1600.000000_um 24 15240 0)
+    )
+    (padstack Round[A]Pad_1600.000000_um
+      (shape (circle F.Cu 1600))
+      (shape (circle B.Cu 1600))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1000.000000x1500.000000_um
+      (shape (rect F.Cu -500 -750 500 750))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1100.000000x1500.000000_um
+      (shape (rect F.Cu -550 -750 550 750))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1600.000000x1600.000000_um
+      (shape (rect F.Cu -800 -800 800 800))
+      (shape (rect B.Cu -800 -800 800 800))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net /A0
+      (pins U1-10 J1-8)
+    )
+    (net /A1
+      (pins U1-9 J1-7)
+    )
+    (net /A10
+      (pins U1-21 J1-19)
+    )
+    (net /A11
+      (pins U1-23 J1-18)
+    )
+    (net /A12
+      (pins U1-2 J1-21)
+    )
+    (net /A2
+      (pins U1-8 J1-6)
+    )
+    (net /A3
+      (pins U1-7 J1-5)
+    )
+    (net /A4
+      (pins U1-6 J1-4)
+    )
+    (net /A5
+      (pins U1-5 J1-3)
+    )
+    (net /A6
+      (pins U1-4 J1-2)
+    )
+    (net /A7
+      (pins U1-3 J1-1)
+    )
+    (net /A8
+      (pins U1-25 J1-23)
+    )
+    (net /A9
+      (pins U1-24 J1-22)
+    )
+    (net /D0
+      (pins U1-11 J1-9)
+    )
+    (net /D1
+      (pins U1-12 J1-10)
+    )
+    (net /D2
+      (pins U1-13 J1-11)
+    )
+    (net /D3
+      (pins U1-15 J1-13)
+    )
+    (net /D4
+      (pins U1-16 J1-14)
+    )
+    (net /D5
+      (pins U1-17 J1-15)
+    )
+    (net /D6
+      (pins U1-18 J1-16)
+    )
+    (net /D7
+      (pins U1-19 J1-17)
+    )
+    (net /GND
+      (pins C1-2 U1-14 J1-12)
+    )
+    (net /PIN1
+      (pins JP1-2 U1-1)
+    )
+    (net /SELECT_N
+      (pins U1-20 U1-22 J1-20)
+    )
+    (net /VCC
+      (pins JP1-1 C1-1 U1-27 U1-28 J1-24)
+    )
+    (net "unconnected-(U1-P26-Pad26)"
+      (pins U1-26)
+    )
+    (class kicad_default /A0 /A1 /A10 /A11 /A12 /A2 /A3 /A4 /A5 /A6 /A7 /A8
+      /A9 /D0 /D1 /D2 /D3 /D4 /D5 /D6 /D7 /GND /PIN1 /SELECT_N /VCC "unconnected-(U1-P26-Pad26)"
+      (circuit
+        (use_via "Via[0-1]_600:300_um")
+      )
+      (rule
+        (width 250)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+  )
+)

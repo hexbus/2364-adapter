@@ -1,0 +1,20 @@
+{
+  "file": "fabrication/2364-adapter-rev-a-credit-20261109-gerbers.zip",
+  "sha256": "10d709f75d1fc5d9b522bc32d1af2aa1eaa129b70c1f7a871fe146f7595fc2cd",
+  "bytes": 16707,
+  "entries": 12,
+  "contents_sha256": {
+    "68764-to-28pin-B_Cu.gbl": "d0cc9b48d8a050bc4a0f6529b69bca1285b7894210923c7b29141475eeb18a46",
+    "68764-to-28pin-B_Mask.gbs": "adcfe9114a87ec799316d8dc9365d8ce004431e3fadf1c4a85ea968f21acc1a4",
+    "68764-to-28pin-B_Silkscreen.gbo": "6ae1bc7f7543f4efb3b0fb9e795e1a2e8afa39eabd4e6abc289d8ce06ef385d1",
+    "68764-to-28pin-Edge_Cuts.gm1": "61fe907baa40a18177dd3702ee70e3688043f4fb708776b136e423056b526666",
+    "68764-to-28pin-F_Cu.gtl": "252cf6bb1374b734d5a729a993f4eb9d384edb3f04e08f8850d7981c7f745e2f",
+    "68764-to-28pin-F_Mask.gts": "6180ab07db9a0c6ba6ce57bc76a031bc84cbd89051d6e54c67561805803135ff",
+    "68764-to-28pin-F_Silkscreen.gto": "e5e2d181fecfea0caef011a902df53958729f35d75b621dbd38920b17a2f545d",
+    "68764-to-28pin-job.gbrjob": "4415b8306e0a86be23b49a9886701e8fc5ef2177c7b5a6ae7890560f1257118a",
+    "68764-to-28pin.drl": "bf54e079ac9a73051b24fe4c91a20632c915ec327f1563a8533187b3cb4b5a7b",
+    "LICENSE": "9764c6e66350a032be64b1d16f3bb8ba3267c56164876f9e7093333423d68c7b",
+    "NOTICE": "4dc53e5448c9885ce1094b3245ac8003dc085ce162b1fd9e016dd862f3cfc43c",
+    "SHA256SUMS.txt": "ab5fc2aafe1097daafa0b495e7b351fc31227c98a4cc8724cd491b4846493a47"
+  }
+}

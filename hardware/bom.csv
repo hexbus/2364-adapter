@@ -1,0 +1,7 @@
+Reference,Quantity,Description,Required specification,Assembly side
+PCB,1,68764-to-28pin revision A,23 x 37 mm; 2 layers; 1.6 mm FR4; 1 oz copper,NA
+U1 sockets,2,Single-row turned-pin female socket strips,1x14 each; 2.54 mm pitch; rows 15.24 mm apart; solder tails fit 0.8 mm holes,Top
+J1 plug,2,Single-row round-pin male adapter strips,1x12 each; 2.54 mm pitch; rows 15.24 mm apart; socket-compatible round mating pins approximately 0.45-0.50 mm diameter,Bottom
+C1,1,100 nF ceramic capacitor,0805; X7R or X5R; at least 16 V,Top
+JP1,0,Two-pad solder bridge,Leave open for AT28C64B; bridge with solder for 2764/27C64,Top
+U1 memory,1,AT28C64B-15PU or 5 V 2764/27C64 DIP28,Program separately; use correct jumper setting; equal or faster than original ROM timing,Top removable
