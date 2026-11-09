@@ -18,16 +18,17 @@ Previews show the delivered Gerbers; the bottom is viewed from underneath.
 **C1, JP1 and `U1 NOTCH` identify the top. `J1 TO HOST` identifies the bottom.**
 Each connector has its own square pin-1 pad; their positions are offset.
 Both notch ends face the same end of the board.
+The notched top silkscreen outline marks the 28-pin memory position.
 
 [Photo of the first bare boards](images/first-boards.jpg): top on the left,
-bottom on the right. Those boards predate the printed designer credit.
+bottom on the right. Those boards predate the printed designer credit and top outline.
 For my own batches, I also use JLCPCB's order-time QR option for identifiers
 such as `JDG001`–`JDG025`. Public Gerbers include permanent
 `hexbus.com (c) 2026` credit so boards made by others are identified too.
 
 ## Files and fabrication
 
-- **[Download the Gerber ZIP — Rev A, 9 November 2026](https://github.com/hexbus/2364-adapter/raw/refs/heads/main/gerbers/2364-adapter-rev-a-20261109.zip)**
+- **[Download the Gerber ZIP — Rev A with top outline, 9 November 2026](https://github.com/hexbus/2364-adapter/raw/refs/heads/main/gerbers/2364-adapter-rev-a-outline-20261109.zip)**
 - **[Order at JLCPCB using my referral link](https://jlcpcb.com/?from=RVDYTTLKZHK)**
 - [KiCad 10 project](hardware/68764-to-28pin.kicad_pro),
   [schematic](hardware/68764-to-28pin.kicad_sch) and [BOM](hardware/bom.csv)
@@ -44,7 +45,8 @@ on both sides and HASL or ENIG finish. Component holes are specified as
 clearance is 0.20 mm. No stencil or assembly files are included.
 
 This package retains the October 21 mask correction, adds bottom designer
-credit and moves C1/JP1 labels clear of the mask openings. Copper, masks,
+credit, includes a notched outline for the top memory, and moves C1/JP1 labels
+clear of the mask openings. Copper, masks,
 drill geometry and outline match corrected Rev A. **Do not fabricate the
 original October 19 package:** its connector pads lacked mask openings.
 
