@@ -27,9 +27,16 @@ such as `JDG001`–`JDG025`. Public Gerbers include permanent
 
 ## Files and fabrication
 
-- **[Gerber ZIP — Rev A, 9 November 2026](gerbers/2364-adapter-rev-a-20261109.zip)**
+- **[Download the Gerber ZIP — Rev A, 9 November 2026](https://github.com/hexbus/2364-adapter/raw/refs/heads/main/gerbers/2364-adapter-rev-a-20261109.zip)**
+- **[Order at JLCPCB using my referral link](https://jlcpcb.com/?from=RVDYTTLKZHK)**
 - [KiCad 10 project](hardware/68764-to-28pin.kicad_pro),
   [schematic](hardware/68764-to-28pin.kicad_sch) and [BOM](hardware/bom.csv)
+
+Download the Gerber ZIP, open JLCPCB through the referral link, and upload
+the ZIP. Select **2 layers, 1.6 mm FR4 and 1 oz copper**; confirm the detected
+board size is **23 × 37 mm** before ordering. The referral link does not
+upload the files automatically. I may receive referral rewards for qualifying
+new users.
 
 Order **2 layers, 1.6 mm FR4, 1 oz copper, 23 × 37 mm**, with solder mask
 on both sides and HASL or ENIG finish. Component holes are specified as
