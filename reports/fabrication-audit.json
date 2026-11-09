@@ -2,7 +2,7 @@
   "result": "PASS",
   "scope": "CAD/export/package checks; not hardware qualification",
   "zip": "2364-adapter-rev-a-credit-20261109-gerbers.zip",
-  "zip_sha256": "10d709f75d1fc5d9b522bc32d1af2aa1eaa129b70c1f7a871fe146f7595fc2cd",
+  "zip_sha256": "ae91bd2ef8be24a7423a548a67b3eee2656570a2108c7ae66c96bac0b4a820e7",
   "baseline_unchanged": {
     "-F_Cu.gtl": true,
     "-B_Cu.gbl": true,
