@@ -1,0 +1,18 @@
+{
+  "review_date": "2026-11-09",
+  "source": "Rendered from the exact manufacturing ZIP; component-side and underside composites plus eight individual manufacturing layers inspected",
+  "zip_sha256": "ae91bd2ef8be24a7423a548a67b3eee2656570a2108c7ae66c96bac0b4a820e7",
+  "images_sha256": {
+    "docs/images/top.png": "d184fd2ab1ccca7775cbafa537612b0b94bb32a4037fdb41408a367a65a1c780",
+    "docs/images/bottom.png": "d969a316e669b94f11753b4a9756a7864fbf51647ed1bb42bbe1aa27f10d42cf",
+    "docs/images/fabrication-layers.png": "49ae1575841a4d4e0c20ac794c3884a0586660f34d5acdc5f5de96f11c5515f1"
+  },
+  "observations": [
+    "Both connector pin-1 squares visible and offset correctly",
+    "Top C1/JP1 openings present and labels clear",
+    "52 connector openings present on each mask layer",
+    "Bottom credit readable when viewed from underside",
+    "Copper routes, outline and drill placement agree with corrected baseline"
+  ],
+  "limits": "Visual/export review only; no assembled-board or host qualification"
+}
