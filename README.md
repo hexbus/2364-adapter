@@ -18,7 +18,8 @@ Previews show the delivered Gerbers; the bottom is viewed from underneath.
 **C1, JP1 and `U1 NOTCH` identify the top. `J1 TO HOST` identifies the bottom.**
 Each connector has its own square pin-1 pad; their positions are offset.
 Both notch ends face the same end of the board.
-The notched top silkscreen outline marks the 28-pin memory position.
+The notched top silkscreen outline encloses all 28 memory pads and is centered
+on the two U1 pin rows; the notch is at the pin-1 end.
 
 [Photo of the first bare boards](images/first-boards.jpg): top on the left,
 bottom on the right. Those boards predate the printed designer credit and top outline.
@@ -28,7 +29,7 @@ such as `JDG001`–`JDG025`. Public Gerbers include permanent
 
 ## Files and fabrication
 
-- **[Download the Gerber ZIP — Rev A with top outline, 9 November 2026](https://github.com/hexbus/2364-adapter/raw/refs/heads/main/gerbers/2364-adapter-rev-a-outline-20261109.zip)**
+- **[Download the Gerber ZIP — Rev A with full top outline, 9 November 2026](https://github.com/hexbus/2364-adapter/raw/refs/heads/main/gerbers/2364-adapter-rev-a-full-outline-20261109.zip)**
 - **[Order at JLCPCB using my referral link](https://jlcpcb.com/?from=RVDYTTLKZHK)**
 - [KiCad 10 project](hardware/68764-to-28pin.kicad_pro),
   [schematic](hardware/68764-to-28pin.kicad_sch) and [BOM](hardware/bom.csv)
